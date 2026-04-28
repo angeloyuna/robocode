@@ -1,11 +1,11 @@
 package yunarobot;
 import robocode.*;
-//import java.awt.Color;
+import java.awt.Color;
 
 // API help : https://robocode.sourceforge.io/docs/robocode/robocode/Robot.html
 
 /**
- * YunaRobot - a robot by (your name here)
+ * YunaRobot - a robot by angeloyuna
  */
 public class YunaRobot extends Robot
 {
@@ -18,7 +18,7 @@ public class YunaRobot extends Robot
 		// After trying out your robot, try uncommenting the import at the top,
 		// and the next line:
 
-		// setColors(Color.red,Color.blue,Color.green); // body,gun,radar
+		setColors(Color.black,Color.white,Color.white); // body,gun,radar
 
 		// Robot main loop
 		while(true) {
