@@ -33,7 +33,12 @@ public class YunaRobot extends AdvancedRobot {
 	 */
 	public void onScannedRobot(ScannedRobotEvent e) {
 		// Replace the next line with any behavior you would like
-		fire(1);
+		if (getOthers() > 3 ) {
+			fire(3);
+		}
+		else {
+			fire(1);
+		}
 	}
 
 	/**
