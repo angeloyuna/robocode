@@ -44,6 +44,11 @@ public class YunaRobot extends AdvancedRobot {
 		doNothing();
 	}
 	
+	public void onHitRobot(HitRobotEvent e) {
+		// Replace the next line with any behavior you would like
+		fire(3);
+	}
+	
 	/**
 	 * onHitWall: What to do when you hit a wall
 	 */
