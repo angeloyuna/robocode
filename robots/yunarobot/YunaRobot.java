@@ -18,14 +18,13 @@ public class YunaRobot extends AdvancedRobot {
 		// and the next line:
 
 		setColors(Color.black,Color.white,Color.white); // body,gun,radar
+		setMaxVelocity(6);
 
 		// Robot main loop
 		while(true) {
 			// Replace the next 4 lines with any behavior you would like
-			ahead(100);
-			turnGunRight(360);
-			back(100);
-			turnGunRight(360);
+			setTurnRight(10000);						
+			ahead(10000);
 		}
 	}
 
