@@ -7,8 +7,7 @@ import java.awt.Color;
 /**
  * YunaRobot - a robot by angeloyuna
  */
-public class YunaRobot extends Robot
-{
+public class YunaRobot extends AdvancedRobot {
 	/**
 	 * run: YunaRobot's default behavior
 	 */
